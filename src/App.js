@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Stats from './components/Stats';
-import Calculator from './components/Calculator';
+import Stats from './components/Stats.js';
+import Calculator from './components/Calculator.js';
 
 function App() {
   return (
