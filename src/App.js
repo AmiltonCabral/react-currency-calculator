@@ -18,9 +18,16 @@ function App() {
     .then(res => res.json())
     .then(
       (result) => {
-        setExchangeData(result[cA+cB]);
+        if (result[cA+cB] != null)
+          setExchangeData(result[cA+cB]);
+        else
+          console.log("Error, API returned null");
       }
     )
+  }
+
+  function error() {
+    console.log("erro");
   }
 
   function setCA(cv) {

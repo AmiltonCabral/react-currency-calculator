@@ -8,7 +8,7 @@ function Stats(props) {
                 <p>1 {props.data.code} = {props.ask} {props.data.codein}</p>
             </div>
             <div>
-                <p>Cotação do dia: {props.create_date}</p>
+                <p>Currency quote day: {props.create_date}</p>
             </div>
         </div>
         
