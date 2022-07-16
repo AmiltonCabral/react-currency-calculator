@@ -26,10 +26,6 @@ function App() {
     )
   }
 
-  function error() {
-    console.log("erro");
-  }
-
   function setCA(cv) {
     setDataAPI(cv, coinB);
     setCoinA(cv);

@@ -46,13 +46,13 @@ function Calculator(props) {
                     <input type="number" name="fstCoin" className="inCoin" placeholder="0" min={0}
                      value={valueCoinA}
                      onChange={e => setValueCoinA(e.target.value) & setValueCoinB(updateCoin(e.target.value))}/><Select
-                     className="select" options={options} defaultValue={options[0]} onChange={e => props.setCA(e.value)}/>
+                        className="select" options={options} defaultValue={options[0]} onChange={e => props.setCA(e.value)}/>
                 </div>
                 <div className="setCoins">
                     <input type="number" name="scdCoin" className="inCoin" placeholder="0" min={0}
                      value={valueCoinB}
                      onChange={e => setValueCoinB(e.target.value) & setValueCoinA(updateCoin(e.target.value, true))}/><Select
-                     className="select" options={options} defaultValue={options[1]} onChange={e => props.setCB(e.value)}/>
+                        className="select" options={options} defaultValue={options[2]} onChange={e => props.setCB(e.value)}/>
                 </div>
             </div>
         </div>

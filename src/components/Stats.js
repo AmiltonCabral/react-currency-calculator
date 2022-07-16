@@ -1,9 +1,8 @@
-import './Stats.css';
+import './Stats.css'
 
 function Stats(props) {
-    // <button className="updateStats">Update Stats</button>
     return (
-        <div className="Stats">
+        <div className="stats">
             <div>
                 <p>1 {props.data.code} = {props.ask} {props.data.codein}</p>
             </div>
