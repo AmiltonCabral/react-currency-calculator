@@ -1,12 +1,11 @@
-function Stats() {
+function Stats(props) {
     return (
         <div className="Stats">
             <div>
-                <p>1 Dólar vale: </p>
-                <p>5,24 Real</p>
+                <p>1 Dólar vale: {props.ask}</p>
             </div>
             <div>
-                <p>Cotação do dia 25 Junho 2022</p>
+                <p>Cotação do dia: {props.create_date}</p>
             </div>
         </div>
         
