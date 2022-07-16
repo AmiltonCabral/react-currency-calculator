@@ -8,6 +8,9 @@ Currency Calculator is an app that converts and calculates the rate between two 
 
 The currency quote is automatically updated from a public [API](https://economia.awesomeapi.com.br/).
 
+## Layout web
+![layout_web](https://raw.githubusercontent.com/AmiltonCabral/react-currency-calculator/main/layout_web.png)
+
 ## Run project
 
 ```bash
